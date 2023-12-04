@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    
+
     <!-- * ionicon library -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -14,6 +14,42 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+
+    <div class="container">
+
+        <div class="resault-container">
+            <span class="resault">oe0pgi6k9vxwtomeb</span>
+            <button id="clippboard" style="cursor: pointer;">
+                <ion-icon name="copy-outline"></ion-icon>
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">Lowecase</label>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">Uppercase</label>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Numbers</label>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Symbols</label>
+            </div>
+
+            <div class="setting"style="margin-top: 15px;">
+                <label class="length-label">Password Length</label>
+                <div class="input-container">
+                    <input class="range-input" type="range" id="length" value="10" min="5" max="20">
+                    <h3>10</h3>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
