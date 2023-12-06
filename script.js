@@ -79,3 +79,6 @@ lengthRangeInput.addEventListener('input', generatePassword);
 
 // Attach the copyToClipboard function to the click event of the clipboardButton
 clipboardButton.addEventListener('click', copyToClipboard); 
+
+// Generate a password on page load
+generatePassword();
