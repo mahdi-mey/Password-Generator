@@ -65,9 +65,17 @@ function generatePassword() {
     resault.innerText = password;
 }
 
+function copyToClipboard(){
+    password = resault.innerText
+    navigator.clipboard.writeText(password)
+}
+
 // Attach the generatePassword function to the change event of the input elements
 lowercaseCheckbox.addEventListener('change', generatePassword);
 uppercaseCheckbox.addEventListener('change', generatePassword);
 numbersCheckbox.addEventListener('change', generatePassword);
 symbolsCheckbox.addEventListener('change', generatePassword);
 lengthRangeInput.addEventListener('input', generatePassword);
+
+// Attach the copyToClipboard function to the click event of the clipboardButton
+clipboardButton.addEventListener('click', copyToClipboard); 
