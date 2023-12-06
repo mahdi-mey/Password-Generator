@@ -2,7 +2,7 @@
 const lengthInput = document.querySelector('#length')
 const lengthH3 = document.querySelector('.input-container h3')
 
-lengthInput.addEventListener('input', function() {
+lengthInput.addEventListener('input', function () {
     lengthH3.textContent = this.value
 })
 
@@ -22,3 +22,45 @@ const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
 const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numberChars = '0123456789';
 const symbolChars = '!@#$%^&*()_-+=';
+
+
+// Generate a random character from a string
+function getRandomChar(characters) {
+    const index = Math.floor(Math.random() * characters.length);
+    return characters.charAt(index);
+}
+
+// Generate a random password based on user preferences
+function generatePassword() {
+    let allowedChars = '';
+    let password = '';
+
+    // Determine which character sets to include
+    if (lowercaseCheckbox.checked) {
+        allowedChars += lowercaseChars;
+    }
+
+    if (uppercaseCheckbox.checked) {
+        allowedChars += uppercaseChars;
+    }
+
+    if (numbersCheckbox.checked) {
+        allowedChars += numberChars;
+    }
+
+    if (symbolsCheckbox.checked) {
+        allowedChars += symbolChars;
+    }
+
+    // Get the password length from the range input
+    const passwordLength = parseInt(lengthRangeInput.value);
+
+    // Generate the password
+    for (let i = 0; i < passwordLength; i++) {
+        const randomChar = getRandomChar(allowedChars);
+        password += randomChar;
+    }
+
+    // Display the password
+    resault.innerText = password;
+}
