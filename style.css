@@ -1,5 +1,5 @@
 :root {
-    --main-color: #fcbaad;
+    --main-color: #695bff;
 }
 * {
   box-sizing: border-box;
@@ -14,11 +14,11 @@ body {
   height: 100vh;
   overflow: hidden;
   color: #111;
-  background-color: #d7bbf5;
+  background-color: #bbc8f5;
   padding: 5px;
 }
 .container {
-  background-color: #fde5ec;
+  background-color: #e5f2fd;
   box-shadow: 0 2px 10px #00000030;
   width: 350px;
   max-width: 100%;
