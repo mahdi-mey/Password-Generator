@@ -16,3 +16,9 @@ const lengthLabel = document.querySelector('.length-label');
 const resaultContainer = document.querySelector('.resault-container');
 const resault = document.querySelector('.resault');
 const clipboardButton = document.getElementById('clippboard');
+
+// Define character sets
+const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
+const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const numberChars = '0123456789';
+const symbolChars = '!@#$%^&*()_-+=';
