@@ -64,3 +64,10 @@ function generatePassword() {
     // Display the password
     resault.innerText = password;
 }
+
+// Attach the generatePassword function to the change event of the input elements
+lowercaseCheckbox.addEventListener('change', generatePassword);
+uppercaseCheckbox.addEventListener('change', generatePassword);
+numbersCheckbox.addEventListener('change', generatePassword);
+symbolsCheckbox.addEventListener('change', generatePassword);
+lengthRangeInput.addEventListener('input', generatePassword);
