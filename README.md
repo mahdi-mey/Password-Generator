@@ -17,3 +17,10 @@ A simple and effective password generator built with HTML, CSS, and JavaScript. 
 ## Live View
 
 You can try out the Password Generator live [here](https://mahdi-mey.github.io/Password-Generator/) (Insert the link to your live project).
+
+## How It Works
+
+1. Adjust the password length by moving the range slider to your desired setting.
+2. Select the checkbox(es) for the type(s) of characters you want in your password.
+3. As you change settings, the application will automatically generate a new password.
+4. Click the "Copy" button to copy the password to your clipboard.
