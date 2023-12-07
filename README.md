@@ -24,3 +24,13 @@ You can try out the Password Generator live [here](https://mahdi-mey.github.io/P
 2. Select the checkbox(es) for the type(s) of characters you want in your password.
 3. As you change settings, the application will automatically generate a new password.
 4. Click the "Copy" button to copy the password to your clipboard.
+
+## Setup
+
+Clone the repository to your local machine:
+
+```sh
+
+  git clone https://github.com/yourusername/password-generator.git
+
+``````
