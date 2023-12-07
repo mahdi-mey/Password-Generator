@@ -31,6 +31,6 @@ Clone the repository to your local machine:
 
 ```sh
 
-  git clone https://github.com/yourusername/password-generator.git
+  git clone https://github.com/mahdi-mey/Password-Generator.git
 
 ``````
