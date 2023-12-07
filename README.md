@@ -13,3 +13,7 @@ A simple and effective password generator built with HTML, CSS, and JavaScript. 
 - **Instant Password Update:** The password updates in real-time as you adjust your preferences—no need for a separate generation button!
 - **One-Click Copy:** Easily copy your new password to the clipboard with a single click to use it across your accounts securely.
 - **Live Preview:** Witness the Password Generator live in action and try out its features as you make your selections.
+
+## Live View
+
+You can try out the Password Generator live [here](https://mahdi-mey.github.io/Password-Generator/) (Insert the link to your live project).
