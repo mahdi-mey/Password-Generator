@@ -14,10 +14,6 @@ A simple and effective password generator built with HTML, CSS, and JavaScript. 
 - **One-Click Copy:** Easily copy your new password to the clipboard with a single click to use it across your accounts securely.
 - **Live Preview:** Witness the Password Generator live in action and try out its features as you make your selections.
 
-## Live View
-
-You can try out the Password Generator live [here](https://mahdi-mey.github.io/Password-Generator/) (Insert the link to your live project).
-
 ## How It Works
 
 1. Adjust the password length by moving the range slider to your desired setting.
